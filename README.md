@@ -14,8 +14,6 @@ Each plugin must be exported as a function that takes a `bot` object and paramet
 Your plugin should be located in a directory structure like this:
 
 ```
-plugins/
-│
 ├── CustomPlugin/
 │   ├── src/
 │   │   └── CustomPlugin.js
@@ -42,7 +40,7 @@ module.exports = (bot, options) => {
 
 ### 📜 `src/CustomPlugin.js`
 
-This is the main file where all the logic for your plugin is located. The `start` method is called to initialize your plugin's functionality.
+This is the main file where all the logic for your plugin is located. The `start` method is called to initialize your plugin's functionality. But of course this is an example, the structure of the plugin can be any, the main thing is the file index.js
 
 ```javascript
 class CustomPlugin {
